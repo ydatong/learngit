@@ -42,4 +42,47 @@ git的版本库里面存放了很多东西，其中最重要的就是stage（暂
 
 删除某个文件之后，通过`git rm 文件名`删除，然后`git commit`提交
 
+##### 远程仓库
+
+[为github账号添加SSH keys](http://blog.csdn.net/keyboardota/article/details/7603630)
+
+
+`git remote add origin git@github.com:ydatong/learngit.git`将本地的仓库与远程库相关联
+
+远程库的名称就是 origin ，这是git默认的叫法，也可以改成别的。
+
+然后通过 `git push -u origin master`将本地库所有的内容推送到远程库上面
+
+由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+
+后面只要本地做了提交，就可以通过 `git push origin master` 把本地master分之的最新修改推送至github了。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

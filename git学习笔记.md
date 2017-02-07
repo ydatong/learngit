@@ -57,7 +57,13 @@ git的版本库里面存放了很多东西，其中最重要的就是stage（暂
 
 后面只要本地做了提交，就可以通过 `git push origin master` 把本地master分之的最新修改推送至github了。
 
-123
+通过 `git checkout -b 分支名` 创建并切换到新分支，相当于:
+
+`git branch 分支名`
+
+`git checkout 分支名`
+
+
 
 
 

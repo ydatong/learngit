@@ -63,7 +63,11 @@ git的版本库里面存放了很多东西，其中最重要的就是stage（暂
 
 `git checkout 分支名`
 
+通过 `git merge 分支名` 来合并指定分支到当前分支
 
+通过 `git branch -d 分支名`来删指定分支
+
+ 
 
 
 
